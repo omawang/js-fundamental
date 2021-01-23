@@ -9,10 +9,10 @@ for (let i = 3; i < data.length; i++) {
 }
 
 // while
-let index = 0
-while (index < data.length) {
-  console.log('from while at index ' + index + ' with value = ' + data[index])
-  index = index + 1
+let incr = 0
+while (incr < data.length) {
+  console.log('from while at incr ' + incr + ' with value = ' + data[incr])
+  incr = incr + 1
 }
 
 let inc = 1
